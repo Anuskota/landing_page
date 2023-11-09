@@ -1,2 +1,2 @@
 # landing_page
-Landing_page para una empresa privada
+Landing page para una empresa privada.
