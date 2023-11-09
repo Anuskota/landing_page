@@ -1,0 +1,14 @@
+header{
+    position: fixed;
+    background-color: rgba(247, 250, 253, 1);
+
+}
+.sync p{
+    font-family: open sans, sans serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
