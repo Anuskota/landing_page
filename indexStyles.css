@@ -1,3 +1,7 @@
+.{
+   margin: 0; 
+}
+
 header{
     position: fixed;
     width: 100%;
@@ -9,10 +13,10 @@ header{
 }
 .content-nav{
     display: flex;
-    column-gap: 20px;
     margin-left: 40px;
     align-items: center;
     margin-top: 30px;
+    column-gap: normal;
 
 }
 .content-nav img{
@@ -33,6 +37,8 @@ nav {
     margin-right: 80px;
 
 }
+
+
 ul{
     display: flex;
     list-style: none;
@@ -40,4 +46,12 @@ ul{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: bold;
+
+   
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
 }
