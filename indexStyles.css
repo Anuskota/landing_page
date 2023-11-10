@@ -54,4 +54,23 @@ ul{
 ul li a{
     text-decoration: none;
     color: black;
+    
 }
+.button-down{
+    background-color:  rgba(247, 250, 253, 1);
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 25px 10px 25px;
+
+}
+ul li a:hover{
+    
+color: red;
+}
+ul li a img:hover{
+    color: red;
+}
+
