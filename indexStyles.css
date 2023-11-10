@@ -37,7 +37,11 @@ nav {
     margin-right: 80px;
 
 }
+.content-nav{
+    margin-left: 60px;
 
+
+}
 
 ul{
     display: flex;
@@ -47,8 +51,7 @@ ul{
     font-size: 15px;
     font-weight: bold;
 
-   
-
+    align-items: center;
 }
 
 ul li a{
@@ -64,7 +67,13 @@ ul li a{
     font-weight: bold;
     border-radius: 25px;
     padding: 10px 25px 10px 25px;
+    border-color: red;
+    
 
+}
+.button-down:hover{
+    background-color: red;
+    color: rgba(247, 250, 253, 1);
 }
 ul li a:hover{
     
@@ -72,5 +81,14 @@ color: red;
 }
 ul li a img:hover{
     color: red;
+}
+.menu{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    
+}
+.nav ul li ul li:hover{
+    display: block;
 }
 
