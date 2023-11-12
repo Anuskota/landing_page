@@ -1,5 +1,6 @@
 
-.{
+* {
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -87,13 +88,15 @@ body {
     border-radius: 25px;
     padding: 10px 25px 10px 25px;
     border-color: #ff556e;
+
+    
     
 
 }
 .button-down:hover{
     color: white;
     background-color: #ff556e;
-
+    
     
 
 }
