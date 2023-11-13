@@ -32,3 +32,13 @@ CIrculos de Johana
     font-size: 10px;
     color: #333333;
   }
+
+
+
+  #favorite-text{
+    
+    text-align: left;
+    width: 380px;
+    background-color: blueviolet;
+
+}

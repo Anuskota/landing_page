@@ -2,15 +2,39 @@
 
 font-family: 'Open Sans', sans-serif;
 }
+body{
+
+    background-color:rgba(247, 250, 253, 1); 
+}
 
 main{
 
-background-image: url("./assets/Desktop - 1.png");
+/*background-image: url("./assets/Desktop - 1.png");*/
 width: 100%;
 height:600px;
 margin-top: 0;
 
 
+
+}
+#geometric-icons{
+   
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+
+}
+#green-diamond{
+    height: 1.3%;
+    width: 1.2%;
+    padding-left: 100px;
+ 
+}
+#yellow-circle{
+    height: 1%;
+    width:1.2%;
+    padding-left: 1%;
+    padding-right: 150px;
 }
 
 .text{
@@ -27,7 +51,7 @@ h1{
     padding-top: 150px;
 }
 
-p{
+#landing-text{
     font-size: 18px;
     text-align: center;
     margin-left: 250px;
@@ -86,14 +110,19 @@ margin-left: auto;
 margin-right: auto;
 padding-top: 50px;
 padding-bottom: 50px;
-
-
+animation: mobile 3s ease 1s infinite;
 }
+ @keyframes mobile {
+    0%, 50%, 100% { transform: scale(1, 1); }
+  30%, 80% { transform: scale(0.92, 0.95); }
+
+    
+ }
 
 
 .icons{
     background-color:;
-    height: 600px;
+    height: 250px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -103,13 +132,14 @@ padding-bottom: 50px;
 .circle {
     display: flex;
     align-items:center;
-    /*Margen entre items*/ margin: 40px 40px 10px 40px;
+    /*Margen entre items*/ margin: 40px 40px 0px 40px;
     justify-content: center;
     width: 100px;
     height: 100px;
    
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
     
     
 }
@@ -129,6 +159,7 @@ padding-bottom: 50px;
     font-size: 10px;
     color: #333333;
     margin-bottom: 1px;
+    
 }
 
 .text-icon{
@@ -157,3 +188,11 @@ padding-bottom: 50px;
     background-color:rgba(79, 185, 232, 0.18);
 }
 
+/* @media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+}
+@media  {
+    
+} */
