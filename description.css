@@ -1,4 +1,8 @@
 
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
 #favorite-section{
     width: 100%;
     height: 500px;
@@ -9,7 +13,7 @@
 
 }
 #favorite-img{
-   margin-right: 20px;
+    margin-right: 20px;
 }
 #favorite-img img{
 /* background-color: antiquewhite; */
@@ -29,8 +33,66 @@
 margin-bottom: 20px;
 }
 
-#description-button{
+
+
+
+.calendar-section{
+background-color:#e8eff6;    
+width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+}
+
+#organization{
+margin-top: 100px;
+}
+
+.privacy-text{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-right: 20px;
+    text-align: left;
+    width: 380px;
+    
+}
+#checkbox-list{
+    text-align: left;
+    list-style: none;
+}
+#schedule-button {
+padding: 8px 10px 8px 10px; 
+background-color:#c09efd;
+color:rgba(247, 250, 253, 1); 
+font-weight: bold;
+border: none;
+width: 100px;
+}
+
+#tracking-button{
+padding: 8px 10px 8px 10px; 
+background-color:rgba(247, 250, 253, 1); 
+color:  #777777;
+font-weight: bold;
+border: none;
+width: 100px;
+}
+
+#organize-button{
+width: 100px;
+margin-top: 10px;
+padding: 8px 10px 8px 10px; 
+background-color:rgba(247, 250, 253, 1); 
+color:  #777777;
+font-weight: bold;
+border: none;
+
+}
+
+.red-button{
     background-color: #ff556e;
+    width: 150px;
     color: rgba(247, 250, 253, 1);
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -42,6 +104,23 @@ margin-bottom: 20px;
     display: inline-block;
     margin-top: 15PX;
 }
-#description-button:hover{
+.red-button:hover{
     background-color:#c09efd;
 }
+
+
+.calendar{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content:center;
+
+}
+.calendar img{
+    margin-left: 20px;
+
+}
+
+
+
