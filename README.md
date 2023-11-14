@@ -1,3 +1,12 @@
+PROYECTO INDIVIDUAL PARA CLIENTE FEMCODERS NORTE 
+
+Este repositorio recoge el diseño sobre una aplicación multiplataforma enfocada a la optimización del tiempo de trabajo y con ello conseguir mejores resultados.
+
+Se han utilizado los siguientesuajes:
+
+- <a href="https://www.w3.org/TR/?tags%5B0%5D=html">HTML</a>
+
+
 # landing_page
 Landing page para una empresa privada.
 #ff556e
