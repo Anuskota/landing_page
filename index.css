@@ -202,20 +202,30 @@ animation: mobile 3s ease 1s infinite;
 
 #blue:hover{
     transform: scale(1.1);
+     filter: brightness(1.3);
+     cursor: pointer;
 }
 
 #red:hover{
     transform: scale(1.1);
+    filter: brightness(1.3);
+    cursor: pointer;
 }
 #orange:hover{
     transform: scale(1.1);
+    filter: brightness(1.3);
+    cursor: pointer;
 }
 #purple:hover{
     transform: scale(1.1);
+    filter: brightness(1.3);
+    cursor: pointer;
 }
 
 #green:hover{
     transform: scale(1.1);
+    filter: brightness(1.3);
+    cursor: pointer;
 }
 
 /* @media only screen and (max-width: 600px) {

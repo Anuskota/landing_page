@@ -44,13 +44,14 @@ body {
 }
 
 .navbar a {
-    display: block;
-    color: black;
+    display: block;;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
+#bar-color a{
+    color: black
+}
 #bar-color a:hover {
     color: #ff556e;
 }
@@ -85,10 +86,11 @@ body {
 }
 .button-down{
     background-color:  rgba(247, 250, 253, 1);
-    color: #ff556e;
+   
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: bold;
+    border-color: #ff556e;
     border-radius: 25px;
     padding: 10px 25px 10px 25px;
     border-color: #ff556e;
@@ -97,11 +99,14 @@ body {
     
 
 }
+.button-down{
+     color: #ff556e;
+}
 .button-down:hover{
     color: white;
     background-color: #ff556e;
     cursor: pointer;
-    
+    filter: brightness(1.5);
     
 
 }
