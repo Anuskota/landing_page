@@ -127,8 +127,11 @@ animation: mobile 3s ease 1s infinite;
     display: flex;
     flex-direction: row;
     justify-content: center;
+   
 
 }
+
+
 .circle {
     display: flex;
     align-items:center;
@@ -136,16 +139,16 @@ animation: mobile 3s ease 1s infinite;
     justify-content: center;
     width: 100px;
     height: 100px;
-   
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
-    
-    
+
 }
+
+
 
 .circle i {
     font-size: 40px; 
+    
 }
 
 
@@ -159,33 +162,60 @@ animation: mobile 3s ease 1s infinite;
     font-size: 10px;
     color: #333333;
     margin-bottom: 1px;
+   
     
 }
+
+
 
 .text-icon{
     font-size:15px ;
     text-align: center;
     font-weight: bold;
+    margin-top: 10px;
 
     
 }
 #purple{
 
     background-color:  rgba(170, 126, 236, 0.14);
+     transition: transform 0.3s;
 }
 #green{
     background-color: rgba(25, 202, 148, 0.18);
+     transition: transform 0.3s;
 }
 #red{
     background-color: rgba(255, 85, 110, 0.19);
+     transition: transform 0.3s;
 }
 #orange{
     background-color: rgba(255, 179, 15, 0.18);
+     transition: transform 0.3s;
 }
 
 #blue{
 
     background-color:rgba(79, 185, 232, 0.18);
+    transition: transform 0.3s;
+}
+
+#blue:hover{
+    transform: scale(1.1);
+}
+
+#red:hover{
+    transform: scale(1.1);
+}
+#orange:hover{
+    transform: scale(1.1);
+}
+#purple:hover{
+    transform: scale(1.1);
+}
+
+#green:hover{
+    transform: scale(1.1);
 }
 
 /* @media only screen and (max-width: 600px) {

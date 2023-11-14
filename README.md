@@ -22,53 +22,46 @@ Se han utilizado los siguientes lenguajes:
    <li><a href="https://trello.com">Trello</a></li>
 
 
-
-
    </ul>
 
+   @media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 5px 5%;
+    }
 
+    .header .nav-links {
+        flex-direction: row;
+        align-items: center;
+    }
 
-# landing_page
-Landing page para una empresa privada.
-#ff556e
-CIrculos de Johana
-.circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .circle i {
-    font-size: 40px; 
-  }
-
-  .caos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    .header .nav-links li {
+        padding: 10px 0;
+    }
 }
 
-  .card_icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 20%;
-    font-size: 10px;
-    color: #333333;
-  }
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .header {
+        padding: 5px 7%;
+    }
+    .header .nav-links {
+        justify-content: space-around;
+    }
+    .header .nav-links li {
+        padding: 0 10px;
+    }
+}
 
 
-
-  #favorite-text{
-    
-    text-align: left;
-    width: 380px;
-    background-color: blueviolet;
-
+@media (min-width: 1025px) {
+    .header {
+        padding: 5px 10%;
+    }
+    .header .nav-links {
+        justify-content: flex-end;
+    }
+    .header .nav-links li {
+        padding: 0 20px;
+    }
 }

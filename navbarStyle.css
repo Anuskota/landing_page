@@ -25,6 +25,7 @@ body {
 .content-nav{
     margin-left: 80px;
     padding-right: 30px;
+    cursor: pointer;
 }
 
 .navbar ul {
@@ -64,6 +65,7 @@ body {
     background-color: #f9f9f9;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
+    
 }
 
 .dropdown-content a {
@@ -98,6 +100,7 @@ body {
 .button-down:hover{
     color: white;
     background-color: #ff556e;
+    cursor: pointer;
     
     
 
