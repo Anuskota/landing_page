@@ -15,7 +15,7 @@ Se han utilizado los siguientes lenguajes:
    <li>Visual Studio Code</li>
    <li>Estructuras de etiquetas en HTML</li>
    <li>Estructuras de estilos CSS</li>
-   <li href="https://www.figma.com/">Figma</li>
+   <li><a href="https://www.figma.com/"></a>Figma</li>
    <li href="https://favicon.io">Favicon</li>
    <li href="https://fontawesome.com/">Fontawesome</li>
    <li href="https://github.com/Anuskota">GitHub</li>
