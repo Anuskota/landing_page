@@ -16,10 +16,10 @@ Se han utilizado los siguientes lenguajes:
    <li>Estructuras de etiquetas en HTML</li>
    <li>Estructuras de estilos CSS</li>
    <li><a href="https://www.figma.com">Figma</a></li>
-   <li><a href="https://favicon.io"></a>Favicon</li>
+   <li><a href="https://favicon.io">Favicon</a></li>
    <li><a href="https://fontawesome.com/">Fontawesome</a></li>
    <li><a href="https://github.com/Anuskota">GitHub</a></li>
-   <li><a href="https://trello.com"></a>Trello</li>
+   <li><a href="https://trello.com">Trello</a></li>
 
 
 
