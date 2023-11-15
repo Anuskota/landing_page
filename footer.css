@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content:space-around ;
+    font-size: 18px;
+    /* background-color: #e8eff6;    */
+    
+}
+
+.footer-list{
+
+ list-style:none;
+ color:#999999; 
+}
+
+
+

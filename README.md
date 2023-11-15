@@ -65,3 +65,7 @@ Se han utilizado los siguientes lenguajes:
         padding: 0 20px;
     }
 }
+
+#ff556e
+#ffffff
+#f7fafd
