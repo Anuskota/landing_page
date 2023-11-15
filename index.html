@@ -1,236 +1,299 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Hojas de estilos-->
-    <link rel="stylesheet" href="navbarStyle.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="./description.css">
-    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="navbarStyle.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./description.css" />
+    <link rel="stylesheet" href="./footer.css" />
 
     <!-- Icono favicon en barra de navegacion-->
-    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
 
     <title>Menú Desplegable</title>
 
     <!-- Api de Google Fonts -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet"/>
 
     <!--Link iconos-->
 
     <script src="https://kit.fontawesome.com/83c6a3b014.js" crossorigin="anonymous"></script>
 
-</head>
-<body>
+  </head>
+  <body>
     <header>
-    <nav class="navbar">
+      <nav class="navbar">
         <div class="content-nav">
-            <img src="./assets/logo.png" alt="Logotipo">
+          <img src="./assets/logo.png" alt="Logotipo" />
         </div>
         <ul>
-            <li id="bar-color"><a href="#favorite-section" >DESCRIPITION</a></li>
-            <li id="bar-color"><a href="#features" >FEATURES</a></li>
-            <li id="bar-color"><a href="#screen">SCREENS</a></li>
-            <li class="dropdown" id="bar-color">
-                <a  href="#extras" class="dropbtn">EXTRAS ▾</a>
-                <div class="dropdown-content">
-                    <a id="ext">ARTICLE DETAILS</a>
-                    <a id="ext">TERMS CONDITIONS </a>
-                    <a id="ext">PRIVACY POLICY</a>
-                </div>
-            </li>
-            <li><a href="https://femcoders.factoriaf5.org/" class="button-down " target="_blank"> DOWNLOAD</a></li>
+          <li id="bar-color"><a href="#favorite-section">DESCRIPITION</a></li>
+          <li id="bar-color"><a href="#features">FEATURES</a></li>
+          <li id="bar-color"><a href="#screen">SCREENS</a></li>
+          <li class="dropdown" id="bar-color">
+            <a href="#extras" class="dropbtn">EXTRAS ▾</a>
+            <div class="dropdown-content">
+              <a id="ext">ARTICLE DETAILS</a>
+              <a id="ext">TERMS CONDITIONS </a>
+              <a id="ext">PRIVACY POLICY</a>
+            </div>
+          </li>
+          <li>
+            <a
+              href="https://femcoders.factoriaf5.org/"
+              class="button-down"
+              target="_blank"
+            >
+              DOWNLOAD</a
+            >
+          </li>
         </ul>
-    </nav>
+      </nav>
     </header>
     <main>
-        <div id="geometric-icons">
-            <img id="green-diamond" src="assets/decorative-green-diamond.png" alt="rombo verde">
-            <img id="yellow-circle"src="assets/decorative-yellow-circle.png" alt="circulo amarillo">
+      <div id="geometric-icons">
+        <img
+          id="green-diamond"
+          src="assets/decorative-green-diamond.png"
+          alt="rombo verde"
+        />
+        <img
+          id="yellow-circle"
+          src="assets/decorative-yellow-circle.png"
+          alt="circulo amarillo"
+        />
+      </div>
+      <div class="text">
+        <h1>Mobile App Landing Page</h1>
+        <p id="landing-text">
+          Start focusing on your goals and get more things done with Sync mobile
+          application. It´s the first app to harness de power of social
+          connections to help you stay focused and get organized
+        </p>
+      </div>
+
+      <div class="downloads">
+        <button type="button" class="button-apple" href="">
+          <i class="fa-brands fa-apple" style="color: #feffff"></i> DOWNLOAD
+        </button>
+        <button type="button" class="button-android" href="">
+          <i class="fa-brands fa-google-play" style="color: #feffff"></i>
+          DOWNLOAD
+        </button>
+      </div>
+
+      <!--Imagen del movil-->
+      <div>
+        <img
+          class="index-phone"
+          src="./assets/header-iphone.png"
+          alt="smartphone"
+        />
+      </div>
+
+      <!--Iconos sociales-->
+
+      <section class="icons">
+        <div class="card-icon">
+          <div id="purple" class="circle">
+            <i class="fa-solid fa-users" style="color: #aa7eec"></i>
+          </div>
+          <figcaption class="text-icon">Identify Goals</figcaption>
         </div>
-        <div class="text"><h1>Mobile App Landing Page</h1>
-        <p id="landing-text">Start focusing on your goals and get more things done with Sync mobile application. It´s the first app to harness de power of social connections to help you stay focused and get organized </p>
+
+        <div class="card-icon">
+          <div id="green" class="circle">
+            <i class="fa-sharp fa-solid fa-code" style="color: #19ca94"></i>
+          </div>
+          <figcaption class="text-icon">Situations Analysis</figcaption>
         </div>
 
-        <div class="downloads">
-            <button  type="button" class="button-apple" href=""><i class="fa-brands fa-apple" style="color: #feffff;"></i>   DOWNLOAD</button>
-            <button  type="button" class="button-android" href=""><i class="fa-brands fa-google-play" style="color: #feffff;"></i>   DOWNLOAD</button>
-        </div>
-    
-        <!--Imagen del movil-->
-        <div >
-            <img class="index-phone" src="./assets/header-iphone.png" alt="smartphone">
-
+        <div class="card-icon">
+          <div id="red" class="circle">
+            <i class="fa-sharp fa-solid fa-gear" style="color: #ff556e"></i>
+          </div>
+          <figcaption class="text-icon">Tasks Settings</figcaption>
         </div>
 
-        <!--Iconos sociales-->
-        
-        <section class="icons">
-            
-            <div class="card-icon">
-                <div id="purple" class="circle">
-                    
-                    <i  class="fa-solid fa-users" style="color: #aa7eec;"></i>     
-                </div>
-                <figcaption class="text-icon">Identify Goals</figcaption>
-            </div>
+        <div class="card-icon">
+          <div id="orange" class="circle">
+            <i class="fa-solid fa-comments" style="color: #ffb30f"></i>
+          </div>
+          <figcaption class="text-icon">Social Interaction</figcaption>
+        </div>
 
-            <div class="card-icon">
-                <div id="green" class="circle">
-                    <i  class="fa-sharp fa-solid fa-code" style="color: #19ca94;" ></i>
-                    
-                </div>
-                <figcaption class="text-icon">Situations Analysis</figcaption>
-            </div>
+        <div class="card-icon">
+          <div id="blue" class="circle">
+            <i class="fa-sharp fa-solid fa-rocket" style="color: #4fb9e8"></i>
+          </div>
+          <figcaption class="text-icon">Get Things Done</figcaption>
+        </div>
+      </section>
 
-            <div class="card-icon">
-                <div id="red" class="circle">
-                <i  class="fa-sharp fa-solid fa-gear" style="color: #ff556e;"></i>
-                </div>
-                <figcaption class="text-icon">Tasks Settings</figcaption>
-            </div>
+      <!--PAgina 2 Description-->
 
-            <div class="card-icon">
-                <div id="orange" class="circle">
-                <i  class="fa-solid fa-comments" style="color: #ffb30f;"></i>
-                </div>
-                <figcaption class="text-icon">Social Interaction</figcaption>
+      <div id="description">
+        <div id="favorite-section">
+          <section id="favorite-img">
+            <img src="assets/description-1-app.png" alt="imagen favoritos" />
+          </section>
+          <section id="favorite-text">
+            <h2>
+              Organize Your Time <br />
+              And Start Getting <br />Results
+            </h2>
+            <p>
+              Sync is the first mobile app on the market to harness the power of
+              social connections to hepl you stop procrastinating and start
+              getting things done. Give it a try and see the changes right away.
+            </p>
+            <br />
+
+            <ul type="square">
+              <li>Analyze and evaluate your current status and productivity</li>
+              <br />
+              <li>Beging monitoring your day to day routine with Synx app</li>
+              <br />
+              <li>
+                See the improved results in no more than a couple of weeks
+              </li>
+              <br />
+            </ul>
+            <button class="red-button">LIGTHBOX</button>
+          </section>
+        </div>
+
+        <section class="calendar-section">
+          <section id="organization">
+            <div>
+              <button id="schedule-button">
+                <i class="fa-regular fa-clock" style="color: #f7fafd"></i>
+                Schedule
+              </button>
+              <button id="tracking-button">
+                <i class="fa-solid fa-list" style="color: #7a7a7a"></i> Tracking
+              </button>
             </div>
-            
-            <div class="card-icon">
-                <div id="blue" class="circle">
-                <i  class="fa-sharp fa-solid fa-rocket" style="color: #4fb9e8;"></i>
-                </div>
-                <figcaption class="text-icon">Get Things Done</figcaption>
+            <div>
+              <button id="organize-button">
+                <i class="fa-solid fa-calendar-days" style="color: #7a7a7a"></i>
+                Organize
+              </button>
             </div>
-                
-    
-        
+            <div class="privacy-text">
+              <p>
+                <b> Schedule task </b> to keep track of their completion. Sync
+                provides multiple scheduling options including alarms and
+                reminders.
+              </p>
+              <br />
+
+              <div id="checkbox-list">
+                <p>
+                  <i
+                    class="fa-regular fa-square-check"
+                    style="color: #19ca94"
+                  ></i>
+                  You can always add a new tasks or charget the settings of
+                  existing ones in your calendar view or the app control panel.
+                </p>
+                <br />
+
+                <p>
+                  <i
+                    class="fa-regular fa-square-check"
+                    style="color: #19ca94"
+                  ></i>
+                  It's easy to stay focused on your most important daily
+                  activities than will get your closer to meeting your goals
+                </p>
+                <br />
+
+                <p>
+                  <i
+                    class="fa-regular fa-square-check"
+                    style="color: #19ca94"
+                  ></i>
+                  Use phone reminders to free up your long terms memory which
+                  will reduce stress and make you more productive.
+                </p>
+                <br />
+              </div>
+            </div>
+            <div>
+              <button class="red-button">TERMS</button>
+              <button class="red-button">PRIVACY</button>
+            </div>
+          </section>
+
+          <section>
+            <div class="calendar">
+              <img src="assets/description-2-app.png" alt="imagen calendario" />
+            </div>
+          </section>
         </section>
-        
-
-
-        <!--PAgina 2 Description-->
-
-        <div id="description">
-            <div id="favorite-section">
-                    <section id="favorite-img">
-                    <img  src="assets/description-1-app.png" alt="imagen favoritos">
-                    </section>
-                    <section id="favorite-text">
-                        <h2>Organize Your Time <br> And Start Getting  <br>Results</h2>
-                        <p>Sync is the first mobile app on the market to harness the power of social connections to hepl you stop procrastinating and start getting things done. Give it a try and see the changes right away.</p><br>
-                    
-                        <ul type="square">
-                            <li>Analyze and evaluate your current status and productivity</li><br>
-                            <li>Beging monitoring your day to day routine with Synx app</li><br>
-                            <li>See the improved results in no more than a couple of weeks</li><br>
-                        </ul>
-                        <button class="red-button">LIGTHBOX</button>
-                    </section>
-            </div>
-
-            <section class="calendar-section">
-                <section id="organization">
-                <div>
-                    <button id="schedule-button"><i class="fa-regular fa-clock" style="color: #f7fafd;"></i>  Schedule</button>
-                    <button id="tracking-button"><i class="fa-solid fa-list" style="color: #7a7a7a;"></i>  Tracking</button>
-                </div>
-                <div>
-                    <button id="organize-button"><i class="fa-solid fa-calendar-days" style="color: #7a7a7a;"></i>  Organize</button>
-                    
-                </div>
-                <div class="privacy-text">
-                    <p><b> Schedule task </b>  to keep track of their completion. Sync provides multiple scheduling options including alarms  and reminders.</p><br>
-
-                    <div id="checkbox-list">
-                        <p><i class="fa-regular fa-square-check" style="color: #19ca94;"></i>    You can always add a new tasks or charget the settings of existing ones in your calendar view or the app control panel.</p><br>
-
-                        <p> <i class="fa-regular fa-square-check" style="color: #19ca94;"></i>   It's easy to stay focused on your most important daily activities than will get your closer to meeting your goals</p><br>
-
-
-                        <p>  <i class="fa-regular fa-square-check" style="color: #19ca94;"></i>  Use phone reminders to free up your long terms memory which will reduce stress and make you more productive.</p><br>
-                    </div>
-                    
-                </div>
-                <div>
-                        <button class="red-button">TERMS</button>
-                        <button class="red-button">PRIVACY</button>
-                    
-                </div>
-                </section>
-
-                <section>
-                <div class="calendar">
-                    <img src="assets/description-2-app.png" alt="imagen calendario">
-                </div> 
-                </section>
-
-            </section>
-
-        </div>
-        <div class="footer-line"></div>
-        
+      </div>
+      <div class="footer-line"></div>
     </main>
 
-
-        <!--FOOTER-->
+    <!--FOOTER-->
 
     <footer>
-        <div class="footer">
-            <div class="footer-sections">
-                <ul class="footer-list">
-                
-                    <li><h4>Contact info</h4></li>
-                    <li><i class="fa-solid fa-location-dot" style="color: #999999;"></i>  22 Innovation Street, CA,US</li>
-                    <li><i class="fa-solid fa-envelope" style="color: #999999;"></i>  office@syncmobile.com</li>
-                    <li><i class="fa-solid fa-phone" style="color: #999999;"></i>  +44 376 945 23</li>
-                </ul>
-
-            </div>
-
-            <div class="footer-sections">
-                <ul class="footer-list">
-                    <li><h4>Value Links</h4></li>
-                    <li>Terms & Conditions</li>
-                    <li>Privacy Policy</li>
-                    <li>Article Details</li>
-                </ul>
-            </div>
-            <div class="footer-sections"></div>
-            <ul class="footer-list">
-                    <li><h4>Other Apps</h4></li>
-                    <li>Scientific Calculator</li>
-                    <li>Advanced Timer</li>
-                    <li>Music Store</li>
-            </ul>
-            
-            <div class="footer-list">
-                <div class="footer-icons">
-                    <i class="fa-brands fa-facebook" style="color: #999999; ;"></i>
-                    <i class="fa-brands fa-twitter" style="color: #999999; ;"></i>
-                    <i class="fa-brands fa-pinterest" style="color: #999999; ;"></i>
-                    <i class="fa-brands fa-instagram" style="color:#999999; ;"></i>
-                    
-                </div>
-
-            </div>
-        </div>
-        <div class="copiright">
-            <p>Copyright © 2020 Inovatik - All rights reserved</p>
-    
-
+      <div class="footer">
+        <div class="footer-sections">
+          <ul class="footer-list">
+            <li><h4>Contact info</h4></li>
+            <li>
+              <i class="fa-solid fa-location-dot" style="color: #999999"></i> 22
+              Innovation Street, CA,US
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope" style="color: #999999"></i>
+              office@syncmobile.com
+            </li>
+            <li>
+              <i class="fa-solid fa-phone" style="color: #999999"></i> +44 376
+              945 23
+            </li>
+          </ul>
         </div>
 
+        <div class="footer-sections">
+          <ul class="footer-list">
+            <li><h4>Value Links</h4></li>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Article Details</li>
+          </ul>
+        </div>
+        <div class="footer-sections"></div>
+        <ul class="footer-list">
+          <li><h4>Other Apps</h4></li>
+          <li>Scientific Calculator</li>
+          <li>Advanced Timer</li>
+          <li>Music Store</li>
+        </ul>
 
-
+        <div class="footer-list">
+          <div class="footer-icons">
+            <i class="fa-brands fa-facebook" style="color: #999999"></i>
+            <i class="fa-brands fa-twitter" style="color: #999999"></i>
+            <i class="fa-brands fa-pinterest" style="color: #999999"></i>
+            <i class="fa-brands fa-instagram" style="color: #999999"></i>
+          </div>
+        </div>
+      </div>
+      <div class="copiright">
+        <p>Copyright © 2020 Inovatik - All rights reserved</p>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
