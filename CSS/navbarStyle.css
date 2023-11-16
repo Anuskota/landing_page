@@ -100,7 +100,9 @@ body {
 
 }
 .button-down{
-     color: #ff556e;
+    border: solid 2px #ff556e; 
+    color: #ff556e;;
+
 }
 .button-down:hover{
     color: white;
