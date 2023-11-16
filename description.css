@@ -129,9 +129,13 @@ border: none;
     margin-top: 15PX;
 }
 .red-button:hover{
-    background-color:#c09efd;
+    background-color:rgba(247, 250, 253, 1);
+    color: #ff556e;;
     cursor: pointer;
     filter: brightness(1.1);
+    border-radius: 25px;
+    border:solid 2px #ff556e;
+    
 }
 
 
