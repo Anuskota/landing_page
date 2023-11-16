@@ -24,10 +24,10 @@ Se han utilizado los siguientes lenguajes:
 
    </ul>
 
-   <h2>REQUISITPOS FUNCIONALES MINIMOS<h2>
+   <h4>REQUISITPOS FUNCIONALES MÍNIMOS<h4>
 
 
-   <ul>
+<ul>
     <li>La página DEBE ser una réplica exacta de los mockups entregados, cumpliendo con: la paleta de
     colores, la fuente y la iconografía. </li>
     <li> La página debe ser responsive.</li>
@@ -41,17 +41,18 @@ Se han utilizado los siguientes lenguajes:
     <li> Cuando un usuario pase por encima de un icono, estos DEBEN estar con efectos o animados.</li>
 </ul>
 
-<h2>REQUISITOS TECNICOS <h2>
+<h4>REQUISITOS TÉCNICOS <h4>
 
-<ul><li>DEBE ser responsive en 3 puntos de quiebre (móvil, tablet y ordenador).</li>
-<li> Front-end: Tecnologías HTML, CSS.</li>
-<li> Se valorará positivamente el uso de herramientas o frameworks que
-ayuden a agilizar el proceso de desarrollo ( Bootstrap, Tailwind... etc).</li>
-<li> El código DEBE ser ordenado, indentado, semántico y con las mejores
-prácticas de desarrollo.</li>
-<li> Se DEBE desplegar el proyecto en Github pages, Netlify u otro servidor.</li>
-<li> La web debe ser compatible con los principales navegadores (Chrome.</li>
-Firefox, Safari, Edge).</li>
-<li> Se debe usar git.</li>
+<ul>
+    <li>DEBE ser responsive en 3 puntos de quiebre (móvil, tablet y ordenador).</li>
+    <li> Front-end: Tecnologías HTML, CSS.</li>
+    <li> Se valorará positivamente el uso de herramientas o frameworks que
+    ayuden a agilizar el proceso de desarrollo ( Bootstrap, Tailwind... etc).</li>
+    <li> El código DEBE ser ordenado, indentado, semántico y con las mejores
+    prácticas de desarrollo.</li>
+    <li> Se DEBE desplegar el proyecto en Github pages, Netlify u otro servidor.</li>
+    <li> La web debe ser compatible con los principales navegadores (Chrome.</li>
+    Firefox, Safari, Edge).</li>
+    <li> Se debe usar git.</li>
 
 </ul>
