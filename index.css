@@ -3,38 +3,33 @@
 font-family: 'Open Sans', sans-serif;
 }
 
- body{
+body{
     position: relative;
     min-height: 100vh;
     background-color:rgba(247, 250, 253, 1); 
     display: flex;
-    flex-direction: column;
-   
-    
+    flex-direction: column;   
 } 
 
 main{
-
- width: 100%;
-/*height:600px;*/
-margin-top: 0; 
-
-
-
+    width: 100%;
+    margin-top: 0; 
 }
+
 #geometric-icons{
-   
     display: flex;
     justify-content: space-between;
     padding-top: 10%;
 
 }
+
 #green-diamond{
     height: 1.3%;
     width: 1.2%;
     padding-left: 100px;
- 
+
 }
+
 #yellow-circle{
     height: 1%;
     width:1.2%;
@@ -45,9 +40,6 @@ margin-top: 0;
 .text{
 text-align:center ;
 margin: 0px 100px 0 100px ;
-
-
-
 }
 
 h1{
@@ -65,12 +57,10 @@ h1{
 }
 
 .downloads{
-
     margin-top: 30px;
     text-align: center;
-    
-
 }
+
 .button-apple{
     background-color: #ff556e;
     color: rgba(247, 250, 253, 1);
@@ -85,6 +75,7 @@ h1{
     
 
 }
+
 .button-apple:hover{
     background-color:#c09efd;
 }
@@ -131,10 +122,7 @@ animation: mobile 3s ease 1s infinite;
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
-
 }
-
 
 .circle {
     display: flex;
@@ -148,14 +136,10 @@ animation: mobile 3s ease 1s infinite;
 
 }
 
-
-
 .circle i {
     font-size: 40px; 
     
 }
-
-
 
 .card_icon {
     display: flex;
@@ -170,15 +154,12 @@ animation: mobile 3s ease 1s infinite;
     
 }
 
-
-
 .text-icon{
     font-size:15px ;
     text-align: center;
     font-weight: bold;
     margin-top: 10px;
 
-   
 }
 
 #purple{
@@ -188,15 +169,15 @@ animation: mobile 3s ease 1s infinite;
 }
 #green{
     background-color: rgba(25, 202, 148, 0.18);
-     transition: transform 0.3s;
+    transition: transform 0.3s;
 }
 #red{
     background-color: rgba(255, 85, 110, 0.19);
-     transition: transform 0.3s;
+    transition: transform 0.3s;
 }
 #orange{
     background-color: rgba(255, 179, 15, 0.18);
-     transition: transform 0.3s;
+    transition: transform 0.3s;
 }
 
 #blue{
